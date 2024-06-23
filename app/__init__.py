@@ -10,6 +10,7 @@ work_experiences = []
 educations = []
 hobbies = []
 
+
 @app.route("/")
 def index():
     return render_template(
